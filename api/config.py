@@ -2,7 +2,7 @@
 userlist_header='Age Authors'
 
 # Versions of the engine this DB instance will support
-acceptable_game_versions = ['70.2', '70.3']
+acceptable_game_versions = ['70.2']
 
 # API paths
 ages_path='/ages'
