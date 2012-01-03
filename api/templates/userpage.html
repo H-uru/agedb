@@ -1,0 +1,10 @@
+$def with (user)
+
+<div class="agedb_userinfo"><h1>Summary For $user['username']</h1>
+<h2>Ages authored:</h2>
+<ul>
+$for a in user['ages']:
+    <li><a href="$a.uri">$a.fullname</a></li>
+</ul>
+</div>
+

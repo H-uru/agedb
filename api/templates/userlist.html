@@ -1,0 +1,7 @@
+$def with (users)
+
+<div class="agedb_userlist"><ul>
+$for u in users:
+    <li><a href="$u.uri">$u.username</a></li>
+</ul></div>
+

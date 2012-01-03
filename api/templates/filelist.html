@@ -1,0 +1,7 @@
+$def with (files)
+
+<div class="agedb_filelist"><ul>
+$for f in files:
+    <li><a href="$f.age['uri']">$f.age['fullname']</a> version <a href="$f.uri">$f.version</a> for engine version $f.gamever. <a href="$f.fetch_uri">Download</a></li>
+</ul></div>
+
